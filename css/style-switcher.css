@@ -1,0 +1,79 @@
+.style-switcher {
+    width: 200px;
+    position: fixed;
+    right: 0;
+    top: 40px;
+    background-color: var(--bg--secondary);
+    border-radius: 5px;
+    padding: 15px;
+    transition: all 0.3s ease;
+    translate: 100%;
+}
+
+.style-switcher.open {
+    translate: -25px;
+}
+
+.style-switcher .s-icon {
+    text-align: center;
+    position: absolute;
+    right: 100%;
+    font-size: 20px;
+    margin-right: 25px;
+    background-color: var(--bg--secondary);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.style-switcher .day-night {
+    top: 55px;
+}
+
+.style-toggler {
+    top: 0;
+}
+
+.style-switcher i {
+    line-height: 40px;
+}
+
+.style-switcher h4 {
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.color-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.color-options span {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.color-1 {
+    background: #8B0000;
+}
+
+.color-2 {
+    background: #065535;
+}
+
+.color-3 {
+    background: #800080;
+}
+
+.color-4 {
+    background: #000080;
+}
+
+.color-5 {
+    background: #a6a414;
+}
+
+
